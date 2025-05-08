@@ -37,3 +37,32 @@
 // }else{
 //     alert(`${inputAge} is not the same number with ${storeAge}`);
 // }
+
+// const UserNumber = parseInt(prompt("Enter a number"));
+
+// if(UserNumber > 0){
+//     alert(`${UserNumber} is a positive number`)
+// }
+
+// const a = parseInt(prompt("Enter a number"));
+// const b = parseInt(prompt("Enter a number"));
+// if( a > b){
+//     alert(`${a} is greater than ${b} `);
+// }else {
+//     alert(`${b} is greater than ${a} `); 
+// }
+
+// const grade = parseInt(prompt("Enter your score"));
+
+// if(grade <= 39){
+//     alert(`${grade} is F`);
+// }
+// else if(grade <= 45){
+//     alert(`${grade} is E`);
+// }
+// else if(grade <= 55){
+//     alert(`${grade} is D`);
+// }
+// else if(grade >55 && grade <=65){
+//     alert(`${grade} is c`);
+// }
