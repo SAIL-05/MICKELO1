@@ -66,3 +66,22 @@
 // else if(grade >55 && grade <=65){
 //     alert(`${grade} is c`);
 // }
+
+const weight = parseFloat(prompt("Enter your weight"));
+const height = parseFloat(prompt("Enter your height"));
+const BMI = weight / (height * height)
+
+if(BMI < 18.5){
+    alert(`BMI is ${BMI.toFixed(2)}, you are underweight.`);
+}
+else if(BMI >=18.5 && BMI <= 24.9){
+    alert(`BMI is ${BMI.toFixed(2)}, you are healthy.`);
+}
+else if(BMI >=24.9 && BMI <= 29.9){
+    alert(`BMI is ${BMI.toFixed(2)}, you are overweight.`);
+}
+else if(BMI >= 30){
+    alert(`BMI is ${BMI.toFixed(2)}, you are Obese.`)
+}else{
+    alert("Invalid")
+}
